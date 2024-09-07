@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+}
+h2{
+    padding-top: 10px;
+}
+input[type="text"]{
+    outline: none;
+}
+input[type="submit"]{
+    margin-top: 10px;
+    background-color: #2ecc70a3;
+}
+input[type="submit"]:hover{
+    background-color: #2ecc70ec;
+}
+.container{
+    background-image: url("https://images.pexels.com/photos/1431822/pexels-photo-1431822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    width: 60%;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.temp{
+    margin-bottom: 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    
+    flex-direction: column;
+    margin: 30px
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
